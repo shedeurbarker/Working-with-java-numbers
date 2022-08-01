@@ -5,6 +5,7 @@ Git Handle: https://github.com/dcitbarker/dcit104
 Description: Code to calculate the sum of all prime numbers from 1 to a given number
 Note: I decided to take the number from the user. No checks were done for entering valid numbers yet.
 I also used held everything in a while loop to keep the program running unless the user terminates it.
+The IDE added an exception to the constructor for the input stream reader
  */
 
 import java.io.BufferedReader;
