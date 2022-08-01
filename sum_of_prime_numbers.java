@@ -2,6 +2,9 @@
 Author: Anthony Barker
 Student ID: 10981589
 Git Handle: https://github.com/dcitbarker/dcit104
+
+ASSIGNMENT: WRITE A PROGRAM THAT PRODUCES THE SUM OF ALL PRIME NUMBERS LESS THAN A GIVEN NUMBER
+
 Description: Code to calculate the sum of all prime numbers from 1 to a given number
 Note: I decided to take the number from the user. No checks were done for entering valid numbers yet.
 I also used held everything in a while loop to keep the program running unless the user terminates it.
@@ -28,10 +31,10 @@ public class sum_of_prime_numbers {
                 System.out.println("Thank You!");
             }
             else {
-                for(int i = 1; i <= number; i++) {          // iterate through the number
+                for(int i = 1; i < number; i++) {          // iterate through the number - 1
                     if(isPrime(i)) {
                         sum += i;
-                        primes_found.append(" - ").append(i);
+                        primes_found.append(",").append(i);
                     }
                 }
                 System.out.println("The Sum of Prime Numbers from 1 to " + number + " is: " + sum);
