@@ -34,7 +34,7 @@ public class sum_of_prime_numbers {
             }
             else {
                 for(int i = 1; i < number; i++) {          // iterate through the number - 1
-                    if(isPrime(i)) {        // tested - isPrimeWithSwitch(i) also did the work without nesting a for-loop
+                    if(isPrimeWithIfs(i)) {        // tested - isPrimeWithSwitch(i) also did the work without nesting a for-loop
                         sum += i;
                         primes_found.append(",").append(i);
                     }
@@ -72,14 +72,17 @@ public class sum_of_prime_numbers {
                 case 3:
                 return true;
             default:
-                if(num % 2 == 0)
+                if(num % 2 == 0 || num % 3 == 0)
                     return false;
-                else if(num % 3 == 0)
-                    return false;
-                else
-                    return true;
+                return true;
         }
     }
 
-
+    private  static boolean isPrimeWithIfs(int num) {
+        if(num == 1)
+            return false;
+        else if(num == 2 || num == 3)
+            return true;
+        else return num % 2 != 0 && num % 3 != 0;
+    }
 }
