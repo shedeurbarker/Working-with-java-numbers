@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/sum_of_prime_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/sum_of_prime_numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dcit104/sum_of_prime_numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dcit104/sum_of_prime_numbers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.sum_of_prime_numbers">
-    <configuration name="angie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="angie" />
-      <module name="dcit104" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="average_of_even_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="average_of_even_numbers" />
       <module name="dcit104" />
@@ -64,7 +58,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.sum_of_prime_numbers" />
-        <item itemvalue="Application.angie" />
         <item itemvalue="Application.average_of_even_numbers" />
       </list>
     </recent_temporary>
