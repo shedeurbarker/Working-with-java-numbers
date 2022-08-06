@@ -57,6 +57,6 @@ public class sum_of_prime_numbers {
                 return false;
             }
         }
-        return true;             // definitely a PRIME NUMBER
+        return true;             // PRIME NUMBER
     }
 }
