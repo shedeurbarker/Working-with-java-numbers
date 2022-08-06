@@ -7,10 +7,8 @@ ASSIGNMENT: WRITE A PROGRAM THAT PRODUCES THE SUM OF ALL PRIME NUMBERS LESS THAN
 
 Description: Code to calculate the sum of all prime numbers from 1 to a given number
 Note: I decided to take the number from the user. No checks were done for entering valid numbers yet.
-I also used held everything in a while loop to keep the program running unless the user terminates it.
+I also held everything in a while loop to keep the program running unless the user terminates it.
 The IDE added an exception to the constructor for the input stream reader
-Update: today, I was thinking through and felt I could try using a switch statement to get the primes numbers without
-using loops.  I implemented the code in a different function(isPrimeWithSwitch()) and viola, it worked too.
  */
 
 import java.io.BufferedReader;
@@ -34,7 +32,7 @@ public class sum_of_prime_numbers {
             }
             else {
                 for(int i = 1; i < number; i++) {          // iterate through the number - 1
-                    if(isPrimeWithIfs(i)) {        // tested - isPrimeWithSwitch(i) also did the work without nesting a for-loop
+                    if(isPrime(i)) {        // tested - isPrimeWithSwitch(i) also did the work without nesting a for-loop
                         sum += i;
                         primes_found.append(",").append(i);
                     }
@@ -50,7 +48,6 @@ public class sum_of_prime_numbers {
     private static boolean isPrime(int num) {
         if(num < 2)                              //Eliminate 1 and zero - no negative numbers allowed also
             return false;
-
         if (num % 2 == 0)                        // Account for 2, though even number is a prime
             return num == 2;                     // FALSE if it is divisible by 2 but TRUE if it is 2
 // this part of the code will only run if it is an odd number
@@ -61,28 +58,5 @@ public class sum_of_prime_numbers {
             }
         }
         return true;             // definitely a PRIME NUMBER
-    }
-
-// TESTING TO SEE IF THE SAME THING CAN BE ACCOMPLISHED WITH SWITCH STATEMENT
-    private  static boolean isPrimeWithSwitch(int num) {
-        switch (num) {
-            case 1:
-                return false;
-            case 2:
-                case 3:
-                return true;
-            default:
-                if(num % 2 == 0 || num % 3 == 0)
-                    return false;
-                return true;
-        }
-    }
-
-    private  static boolean isPrimeWithIfs(int num) {
-        if(num == 1)
-            return false;
-        else if(num == 2 || num == 3)
-            return true;
-        else return num % 2 != 0 && num % 3 != 0;
     }
 }
