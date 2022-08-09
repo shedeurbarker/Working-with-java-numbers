@@ -16,6 +16,9 @@ public class standard_deviation {
         for (int j : arr) {                                 // for getting the mean
             sum += j;
         }
+// I could use the in built Array method to avoid this for loop
+//      sum = Arrays.stream(arr).sum();         // this will give the same results as looping through the array with for loop
+
         mean_value = sum/arr.length;
 
         for (int j : arr) {                                 // for getting the square of the mean deviation
