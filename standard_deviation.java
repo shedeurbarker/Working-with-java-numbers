@@ -1,6 +1,3 @@
-import java.sql.Array;
-import java.util.ArrayList;
-
 public class standard_deviation {
     static double sum_of_deviation = 0;
     static double standard_deviation = 0;
@@ -12,17 +9,17 @@ public class standard_deviation {
 // sample data
 
 
-        for(int i = 0; i<arr.length; i++) {
-            sum += arr[i];
+        for (int j : arr) {
+            sum += j;
         }
         mean_value = sum/arr.length;
 
-        for(int i = 0; i<arr.length; i++) {
-            double each_deviation = arr[i] - mean_value;
+        for (int j : arr) {
+            double each_deviation = j - mean_value;
             sum_of_deviation += (each_deviation * each_deviation);
         }
         double summation = sum_of_deviation/arr.length;
         standard_deviation = Math.sqrt(summation);
-        System.out.println("Standard Deviation: " + standard_deviation);
+        System.out.println("Standard Deviation: " + (float)standard_deviation);
     }
 }

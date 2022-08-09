@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="" />
+    <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standard_deviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/standard_deviation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,9 +41,16 @@
       <recent name="C:\Users\pcshe\Dropbox\GIT\dcit104" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.sum_of_prime_numbers">
+  <component name="RunManager" selected="Application.standard_deviation">
     <configuration name="average_of_even_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="average_of_even_numbers" />
+      <module name="dcit104" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="standard_deviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="standard_deviation" />
       <module name="dcit104" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,6 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.standard_deviation" />
         <item itemvalue="Application.sum_of_prime_numbers" />
         <item itemvalue="Application.average_of_even_numbers" />
       </list>
