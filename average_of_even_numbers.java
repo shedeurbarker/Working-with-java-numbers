@@ -1,5 +1,5 @@
 public class average_of_even_numbers {
-    /*
+/*
 Author: Anthony Barker
 Student ID: 10981589
 Git Handle: https://github.com/dcitbarker/dcit104
