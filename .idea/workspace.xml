@@ -37,7 +37,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.number_factorial">
+  <component name="RunManager" selected="Application.palindrome">
     <configuration name="average_of_even_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="average_of_even_numbers" />
       <module name="dcit104" />
@@ -47,6 +47,13 @@
     </configuration>
     <configuration name="number_factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="number_factorial" />
+      <module name="dcit104" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="palindrome" />
       <module name="dcit104" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.palindrome" />
         <item itemvalue="Application.number_factorial" />
         <item itemvalue="Application.standard_deviation" />
         <item itemvalue="Application.sum_of_prime_numbers" />
