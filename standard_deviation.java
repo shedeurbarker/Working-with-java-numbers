@@ -29,4 +29,5 @@ public class standard_deviation {
         standard_deviation = Math.sqrt(summation);                      // Use Java method for taking the square
         System.out.println("Standard Deviation: " + (float)standard_deviation);
     }
+
 }
