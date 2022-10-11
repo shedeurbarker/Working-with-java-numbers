@@ -9,7 +9,7 @@ Description: I simply decided to spell it backwards and compare with the origina
  */
 public class palindrome {
     public static void main(String[] arg) {
-        String word = "Madam";
+        String word = "racecar";
         StringBuilder backward = new StringBuilder();
         String[] breakup = word.split("");
 

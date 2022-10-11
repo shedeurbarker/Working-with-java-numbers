@@ -12,13 +12,14 @@ remainder. I used another variable to hold the total even numbers found to calcu
     public static void main(String[] arg) {
         int sum = 0;
         int total = 0;
-        for(int i = 1; i < 10000; i++) {
+        int number = 800;
+        for(int i = 1; i < number; i++) {
             if(i%2 == 0) {
                 total++;                // track the total even numbers found - for the average
                 sum += i;
             }
         }
         int average = sum / total;
-        System.out.println("Average of all even numbers from 1 - 10,000: " + average);
+        System.out.println("Average of all even numbers from 1 - " + number + ": " + average);
     }
 }

@@ -9,7 +9,7 @@ Description: I used 2 for loops, one for getting the sum of the number for the m
 calculating the sum of the deviations after they have been squared
  */
 public class standard_deviation {
-    static double sum_of_deviation, standard_deviation, mean_value, sum = 0; //same datatype and initial so declare together
+    static double sum_of_deviation, standard_deviation, mean_value, sum = 0.0; //same datatype and initial so declare together
 
     public static void main(String[] arg) {
         int[] arr = {2, 6, 4, 5, 10, 5, 10, 8, 6, 2};       // sample data
