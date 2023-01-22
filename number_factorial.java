@@ -10,7 +10,7 @@ Description: I used a for loop initially but Sir Michael advised I used recursio
 public class number_factorial {
     public static void main(String[] arg) {
         int num = 10;
-        System.out.println("Factorial a given number is: " + factorial(num));
+        System.out.println("Factorial of a given number is: " + factorial(num));
     }
 
     static int factorial(int number) {

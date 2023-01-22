@@ -12,14 +12,27 @@ remainder. I used another variable to hold the total even numbers found to calcu
     public static void main(String[] arg) {
         int sum = 0;
         int total = 0;
-        int number = 800;
-        for(int i = 1; i < number; i++) {
+        int $number = 800;
+        int age = 25;
+        int height = 5;
+        int all = age + height;
+        char first_letter = 'A';
+        String name = "Precious";
+
+        for(int i = 1; i < $number; i++) {
             if(i%2 == 0) {
                 total++;                // track the total even numbers found - for the average
                 sum += i;
             }
         }
         int average = sum / total;
-        System.out.println("Average of all even numbers from 1 - " + number + ": " + average);
+        System.out.println("Average of all even numbers from 1 - " + $number + ": " + average);
+        System.out.println("AGE: " + all);
+        all = 50;
+        System.out.println("AGE: " + all);
+        all = 500;
+        System.out.println("AGE: " + all);
+        all = age + height + 30;
+        System.out.println("AGE: " + all);
     }
 }
