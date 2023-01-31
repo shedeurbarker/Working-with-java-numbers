@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Precious.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/average_of_even_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/average_of_even_numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number_factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/number_factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dcit104/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dcit104/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dcit104/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dcit104/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dcit104/average_of_even_numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dcit104/average_of_even_numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dcit104/number_factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dcit104/number_factorial.class" afterDir="false" />
-    </list>
+    <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,13 +25,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pcshe\Dropbox\GIT\dcit104" />
