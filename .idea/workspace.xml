@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="" />
+    <list default="true" id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,6 +92,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c662b596-b24d-4a14-a2bc-210e46602a05" name="Changes" comment="" />
@@ -108,5 +115,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="110" y="120" width="1060" height="432" key="AVDManager" timestamp="1684192541382">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="110" y="120" width="1060" height="432" key="AVDManager/0.0.1280.672@0.0.1280.672" timestamp="1684192541382" />
+    <state x="150" y="0" key="SettingsEditor" timestamp="1684192697615">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="150" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1684192697615" />
   </component>
 </project>
